@@ -1,0 +1,222 @@
+[
+  {
+    "Time": {
+      "Year": 2020,
+      "Month": 1,
+      "Day": 7,
+      "Hour": 0,
+      "Minute": 0,
+      "Second": 0
+    },
+    "Steps": 1000,
+    "Goal": 8000,
+    "Pulse": 62,
+    "BatteryLevel": 100,
+    "Distance": 700,
+    "Calories": 75,
+    "Bluetooth": false,
+    "Unlocked": false,
+    "Alarm": false,
+    "DoNotDisturb": false,
+    "CurrentWeather": 0,
+    "CurrentTemperature": null
+  },
+  {
+    "Time": {
+      "Year": 2020,
+      "Month": 2,
+      "Day": 9,
+      "Hour": 2,
+      "Minute": 6,
+      "Second": 1
+    },
+    "Steps": 2000,
+    "Goal": 8000,
+    "Pulse": 64,
+    "BatteryLevel": 90,
+    "Distance": 1400,
+    "Calories": 150,
+    "Bluetooth": true,
+    "Unlocked": false,
+    "Alarm": false,
+    "DoNotDisturb": false,
+    "CurrentWeather": 0,
+    "CurrentTemperature": null
+  },
+  {
+    "Time": {
+      "Year": 2020,
+      "Month": 3,
+      "Day": 11,
+      "Hour": 4,
+      "Minute": 12,
+      "Second": 2
+    },
+    "Steps": 3000,
+    "Goal": 8000,
+    "Pulse": 66,
+    "BatteryLevel": 80,
+    "Distance": 2100,
+    "Calories": 225,
+    "Bluetooth": true,
+    "Unlocked": true,
+    "Alarm": false,
+    "DoNotDisturb": false,
+    "CurrentWeather": 1,
+    "CurrentTemperature": 2
+  },
+  {
+    "Time": {
+      "Year": 2020,
+      "Month": 4,
+      "Day": 13,
+      "Hour": 6,
+      "Minute": 18,
+      "Second": 3
+    },
+    "Steps": 4000,
+    "Goal": 8000,
+    "Pulse": 68,
+    "BatteryLevel": 70,
+    "Distance": 2800,
+    "Calories": 300,
+    "Bluetooth": true,
+    "Unlocked": true,
+    "Alarm": true,
+    "DoNotDisturb": false,
+    "CurrentWeather": 2,
+    "CurrentTemperature": 8
+  },
+  {
+    "Time": {
+      "Year": 2020,
+      "Month": 5,
+      "Day": 15,
+      "Hour": 8,
+      "Minute": 24,
+      "Second": 4
+    },
+    "Steps": 5000,
+    "Goal": 8000,
+    "Pulse": 70,
+    "BatteryLevel": 60,
+    "Distance": 3500,
+    "Calories": 375,
+    "Bluetooth": true,
+    "Unlocked": true,
+    "Alarm": true,
+    "DoNotDisturb": true,
+    "CurrentWeather": 3,
+    "CurrentTemperature": 14
+  },
+  {
+    "Time": {
+      "Year": 2020,
+      "Month": 6,
+      "Day": 17,
+      "Hour": 10,
+      "Minute": 30,
+      "Second": 5
+    },
+    "Steps": 6000,
+    "Goal": 8000,
+    "Pulse": 72,
+    "BatteryLevel": 50,
+    "Distance": 4200,
+    "Calories": 450,
+    "Bluetooth": false,
+    "Unlocked": true,
+    "Alarm": true,
+    "DoNotDisturb": true,
+    "CurrentWeather": 4,
+    "CurrentTemperature": 20
+  },
+  {
+    "Time": {
+      "Year": 2020,
+      "Month": 7,
+      "Day": 19,
+      "Hour": 12,
+      "Minute": 36,
+      "Second": 6
+    },
+    "Steps": 7000,
+    "Goal": 8000,
+    "Pulse": 74,
+    "BatteryLevel": 40,
+    "Distance": 4900,
+    "Calories": 525,
+    "Bluetooth": false,
+    "Unlocked": false,
+    "Alarm": true,
+    "DoNotDisturb": true,
+    "CurrentWeather": 5,
+    "CurrentTemperature": 26
+  },
+  {
+    "Time": {
+      "Year": 2020,
+      "Month": 8,
+      "Day": 21,
+      "Hour": 14,
+      "Minute": 42,
+      "Second": 7
+    },
+    "Steps": 8000,
+    "Goal": 8000,
+    "Pulse": 76,
+    "BatteryLevel": 30,
+    "Distance": 5600,
+    "Calories": 600,
+    "Bluetooth": false,
+    "Unlocked": false,
+    "Alarm": false,
+    "DoNotDisturb": true,
+    "CurrentWeather": 6,
+    "CurrentTemperature": 32
+  },
+  {
+    "Time": {
+      "Year": 2020,
+      "Month": 9,
+      "Day": 23,
+      "Hour": 16,
+      "Minute": 48,
+      "Second": 8
+    },
+    "Steps": 9000,
+    "Goal": 8000,
+    "Pulse": 78,
+    "BatteryLevel": 20,
+    "Distance": 6300,
+    "Calories": 675,
+    "Bluetooth": false,
+    "Unlocked": false,
+    "Alarm": false,
+    "DoNotDisturb": false,
+    "CurrentWeather": 7,
+    "CurrentTemperature": 38
+  },
+  {
+    "Time": {
+      "Year": 2020,
+      "Month": 10,
+      "Day": 25,
+      "Hour": 18,
+      "Minute": 54,
+      "Second": 9
+    },
+    "Steps": 10000,
+    "Goal": 8000,
+    "Pulse": 80,
+    "BatteryLevel": 10,
+    "Distance": 7000,
+    "Calories": 750,
+    "Bluetooth": false,
+    "Unlocked": false,
+    "Alarm": false,
+    "DoNotDisturb": false,
+    "CurrentWeather": 8,
+    "CurrentTemperature": 44
+  }
+]

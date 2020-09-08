@@ -1,0 +1,1390 @@
+2020-09-08 22:26:44,692 - root - DEBUG - Reading config...
+2020-09-08 22:26:44,692 - root - DEBUG - t: {
+  "Info": {
+    "DeviceId": 46
+  },
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    },
+    "Preview": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 1
+    }
+  },
+  "Time": {
+    "Hours": {
+      "Tens": {
+        "X": 9,
+        "Y": 171,
+        "ImageIndex": 2,
+        "ImagesCount": 10
+      },
+      "Ones": {
+        "X": 83,
+        "Y": 171,
+        "ImageIndex": 2,
+        "ImagesCount": 10
+      }
+    },
+    "Minutes": {
+      "Tens": {
+        "X": 191,
+        "Y": 171,
+        "ImageIndex": 2,
+        "ImagesCount": 10
+      },
+      "Ones": {
+        "X": 264,
+        "Y": 171,
+        "ImageIndex": 2,
+        "ImagesCount": 10
+      }
+    },
+    "Seconds": {
+      "Tens": {
+        "X": 272,
+        "Y": 276,
+        "ImageIndex": 13,
+        "ImagesCount": 10
+      },
+      "Ones": {
+        "X": 302,
+        "Y": 276,
+        "ImageIndex": 13,
+        "ImagesCount": 10
+      }
+    },
+    "Delimiter": {
+      "X": 157,
+      "Y": 171,
+      "ImageIndex": 12
+    }
+  },
+  "Date": {
+    "MonthAndDay": {
+      "Separate": {
+        "Month": {
+          "TopLeftX": 272,
+          "TopLeftY": 113,
+          "BottomRightX": 0,
+          "BottomRightY": 0,
+          "Alignment": "TopLeft",
+          "Spacing": 0,
+          "ImageIndex": 13,
+          "ImagesCount": 10
+        },
+        "Day": {
+          "TopLeftX": 187,
+          "TopLeftY": 113,
+          "BottomRightX": 0,
+          "BottomRightY": 0,
+          "Alignment": "TopLeft",
+          "Spacing": 0,
+          "ImageIndex": 13,
+          "ImagesCount": 10
+        }
+      },
+      "TwoDigitsMonth": true,
+      "TwoDigitsDay": true
+    },
+    "WeekDay": {
+      "X": 14,
+      "Y": 113,
+      "ImageIndex": 23,
+      "ImagesCount": 7
+    }
+  },
+  "Weather": {
+    "Icon": {
+      "Images": {
+        "X": 24,
+        "Y": 30,
+        "ImageIndex": 32,
+        "ImagesCount": 25
+      },
+      "NoWeatherImageIndex": 57
+    },
+    "Temperature": {
+      "Today": {
+        "Separate": {
+          "Day": {
+            "TopLeftX": 108,
+            "TopLeftY": 7,
+            "BottomRightX": 211,
+            "BottomRightY": 49,
+            "Alignment": "TopLeft",
+            "Spacing": 0,
+            "ImageIndex": 13,
+            "ImagesCount": 10
+          },
+          "Night": {
+            "TopLeftX": 108,
+            "TopLeftY": 55,
+            "BottomRightX": 211,
+            "BottomRightY": 97,
+            "Alignment": "TopLeft",
+            "Spacing": 0,
+            "ImageIndex": 13,
+            "ImagesCount": 10
+          }
+        },
+        "AppendDegreesForBoth": true
+      },
+      "Symbols": {
+        "Unknown0800": 0,
+        "MinusImageIndex": 59,
+        "DegreesImageIndex": 58,
+        "NoDataImageIndex": 57
+      }
+    }
+  },
+  "Status": {
+    "Bluetooth": {
+      "Coordinates": {
+        "X": 36,
+        "Y": 283
+      },
+      "ImageIndexOn": 30
+    },
+    "Alarm": {
+      "Coordinates": {
+        "X": 83,
+        "Y": 283
+      },
+      "ImageIndexOn": 31
+    }
+  },
+  "Battery": {
+    "Text": {
+      "TopLeftX": 234,
+      "TopLeftY": 55,
+      "BottomRightX": 323,
+      "BottomRightY": 97,
+      "Alignment": "TopCenter",
+      "Spacing": 0,
+      "ImageIndex": 13,
+      "ImagesCount": 10
+    }
+  },
+  "Shortcuts": {
+    "Weather": {
+      "Element": {
+        "TopLeftX": 0,
+        "TopLeftY": 0,
+        "Width": 215,
+        "Height": 102
+      }
+    },
+    "Unknown4": {
+      "Element": {
+        "TopLeftX": 215,
+        "TopLeftY": 0,
+        "Width": 133,
+        "Height": 102
+      }
+    }
+  }
+}
+2020-09-08 22:26:44,693 - root - DEBUG - Reading referenced images from 'C:\Users\LaXiS\Desktop\amazfit\simple'
+2020-09-08 22:26:44,693 - root - DEBUG - Loading resources for 0 '<class 'watchFaceParser.elements.deviceId.DeviceId'>'
+2020-09-08 22:26:44,693 - root - DEBUG - Loading resources for 2 '<class 'watchFaceParser.elements.background.Background'>'
+2020-09-08 22:26:44,693 - root - DEBUG - Loading resources for 2.1 '<class 'watchFaceParser.elements.basicElements.image.Image'>'
+2020-09-08 22:26:44,693 - root - DEBUG - Request image index 0...
+2020-09-08 22:26:44,693 - root - DEBUG - Loading image 0...
+2020-09-08 22:26:44,694 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0000.png doesn't exist.
+2020-09-08 22:26:44,714 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,714 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,714 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,714 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 3427
+2020-09-08 22:26:44,715 - root - DEBUG - Loading resources for 2.3 '<class 'watchFaceParser.elements.basicElements.image.Image'>'
+2020-09-08 22:26:44,715 - root - DEBUG - Request image index 1...
+2020-09-08 22:26:44,715 - root - DEBUG - Loading image 1...
+2020-09-08 22:26:44,715 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0001.png doesn't exist.
+2020-09-08 22:26:44,715 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,715 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,715 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,715 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 8192
+2020-09-08 22:26:44,715 - root - DEBUG - Loading resources for 3 '<class 'watchFaceParser.elements.time.Time'>'
+2020-09-08 22:26:44,715 - root - DEBUG - Loading resources for 3.1 '<class 'watchFaceParser.elements.timeElements.twoDigits.TwoDigits'>'
+2020-09-08 22:26:44,715 - root - DEBUG - Loading resources for 3.1.1 '<class 'watchFaceParser.elements.basicElements.imageSet.ImageSet'>'
+2020-09-08 22:26:44,715 - root - DEBUG - Request image index 2...
+2020-09-08 22:26:44,715 - root - DEBUG - Loading image 2...
+2020-09-08 22:26:44,715 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0002.png doesn't exist.
+2020-09-08 22:26:44,715 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,715 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,716 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,716 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1456
+2020-09-08 22:26:44,716 - root - DEBUG - Request image index 3...
+2020-09-08 22:26:44,716 - root - DEBUG - Loading image 3...
+2020-09-08 22:26:44,716 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0003.png doesn't exist.
+2020-09-08 22:26:44,716 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,716 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,716 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,716 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 403
+2020-09-08 22:26:44,716 - root - DEBUG - Request image index 4...
+2020-09-08 22:26:44,716 - root - DEBUG - Loading image 4...
+2020-09-08 22:26:44,716 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0004.png doesn't exist.
+2020-09-08 22:26:44,716 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,716 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,716 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,716 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1211
+2020-09-08 22:26:44,716 - root - DEBUG - Request image index 5...
+2020-09-08 22:26:44,717 - root - DEBUG - Loading image 5...
+2020-09-08 22:26:44,717 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0005.png doesn't exist.
+2020-09-08 22:26:44,717 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,717 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,717 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,717 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1219
+2020-09-08 22:26:44,717 - root - DEBUG - Request image index 6...
+2020-09-08 22:26:44,717 - root - DEBUG - Loading image 6...
+2020-09-08 22:26:44,717 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0006.png doesn't exist.
+2020-09-08 22:26:44,717 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,717 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,717 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,717 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 909
+2020-09-08 22:26:44,717 - root - DEBUG - Request image index 7...
+2020-09-08 22:26:44,717 - root - DEBUG - Loading image 7...
+2020-09-08 22:26:44,717 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0007.png doesn't exist.
+2020-09-08 22:26:44,718 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,718 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,718 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,718 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1221
+2020-09-08 22:26:44,718 - root - DEBUG - Request image index 8...
+2020-09-08 22:26:44,718 - root - DEBUG - Loading image 8...
+2020-09-08 22:26:44,718 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0008.png doesn't exist.
+2020-09-08 22:26:44,718 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,718 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,718 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,718 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1694
+2020-09-08 22:26:44,718 - root - DEBUG - Request image index 9...
+2020-09-08 22:26:44,718 - root - DEBUG - Loading image 9...
+2020-09-08 22:26:44,718 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0009.png doesn't exist.
+2020-09-08 22:26:44,719 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,719 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,719 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,719 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 863
+2020-09-08 22:26:44,719 - root - DEBUG - Request image index 10...
+2020-09-08 22:26:44,719 - root - DEBUG - Loading image 10...
+2020-09-08 22:26:44,719 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0010.png doesn't exist.
+2020-09-08 22:26:44,719 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,719 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,719 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,719 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1821
+2020-09-08 22:26:44,719 - root - DEBUG - Request image index 11...
+2020-09-08 22:26:44,719 - root - DEBUG - Loading image 11...
+2020-09-08 22:26:44,719 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0011.png doesn't exist.
+2020-09-08 22:26:44,719 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,720 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,720 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,720 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1695
+2020-09-08 22:26:44,720 - root - DEBUG - Loading resources for 3.1.2 '<class 'watchFaceParser.elements.basicElements.imageSet.ImageSet'>'
+2020-09-08 22:26:44,720 - root - DEBUG - Loading resources for 3.2 '<class 'watchFaceParser.elements.timeElements.twoDigits.TwoDigits'>'
+2020-09-08 22:26:44,720 - root - DEBUG - Loading resources for 3.2.1 '<class 'watchFaceParser.elements.basicElements.imageSet.ImageSet'>'
+2020-09-08 22:26:44,720 - root - DEBUG - Loading resources for 3.2.2 '<class 'watchFaceParser.elements.basicElements.imageSet.ImageSet'>'
+2020-09-08 22:26:44,720 - root - DEBUG - Loading resources for 3.3 '<class 'watchFaceParser.elements.timeElements.twoDigits.TwoDigits'>'
+2020-09-08 22:26:44,720 - root - DEBUG - Loading resources for 3.3.1 '<class 'watchFaceParser.elements.basicElements.imageSet.ImageSet'>'
+2020-09-08 22:26:44,720 - root - DEBUG - Request image index 13...
+2020-09-08 22:26:44,720 - root - DEBUG - Loading image 12...
+2020-09-08 22:26:44,720 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0012.png doesn't exist.
+2020-09-08 22:26:44,720 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,720 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,720 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,720 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 253
+2020-09-08 22:26:44,720 - root - DEBUG - Loading image 13...
+2020-09-08 22:26:44,720 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0013.png doesn't exist.
+2020-09-08 22:26:44,721 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,721 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,721 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,721 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 607
+2020-09-08 22:26:44,721 - root - DEBUG - Request image index 14...
+2020-09-08 22:26:44,721 - root - DEBUG - Loading image 14...
+2020-09-08 22:26:44,721 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0014.png doesn't exist.
+2020-09-08 22:26:44,721 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,721 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,721 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,721 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 216
+2020-09-08 22:26:44,721 - root - DEBUG - Request image index 15...
+2020-09-08 22:26:44,721 - root - DEBUG - Loading image 15...
+2020-09-08 22:26:44,721 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0015.png doesn't exist.
+2020-09-08 22:26:44,721 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,721 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,722 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,722 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 493
+2020-09-08 22:26:44,722 - root - DEBUG - Request image index 16...
+2020-09-08 22:26:44,722 - root - DEBUG - Loading image 16...
+2020-09-08 22:26:44,722 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0016.png doesn't exist.
+2020-09-08 22:26:44,722 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,722 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,722 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,722 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 508
+2020-09-08 22:26:44,722 - root - DEBUG - Request image index 17...
+2020-09-08 22:26:44,722 - root - DEBUG - Loading image 17...
+2020-09-08 22:26:44,722 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0017.png doesn't exist.
+2020-09-08 22:26:44,722 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,722 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,722 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,722 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 389
+2020-09-08 22:26:44,723 - root - DEBUG - Request image index 18...
+2020-09-08 22:26:44,723 - root - DEBUG - Loading image 18...
+2020-09-08 22:26:44,723 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0018.png doesn't exist.
+2020-09-08 22:26:44,723 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,723 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,723 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,723 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 477
+2020-09-08 22:26:44,723 - root - DEBUG - Request image index 19...
+2020-09-08 22:26:44,723 - root - DEBUG - Loading image 19...
+2020-09-08 22:26:44,723 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0019.png doesn't exist.
+2020-09-08 22:26:44,723 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,723 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,723 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,723 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 675
+2020-09-08 22:26:44,723 - root - DEBUG - Request image index 20...
+2020-09-08 22:26:44,723 - root - DEBUG - Loading image 20...
+2020-09-08 22:26:44,724 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0020.png doesn't exist.
+2020-09-08 22:26:44,724 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,724 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,724 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,724 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 366
+2020-09-08 22:26:44,724 - root - DEBUG - Request image index 21...
+2020-09-08 22:26:44,724 - root - DEBUG - Loading image 21...
+2020-09-08 22:26:44,724 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0021.png doesn't exist.
+2020-09-08 22:26:44,724 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,724 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,724 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,724 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 732
+2020-09-08 22:26:44,724 - root - DEBUG - Request image index 22...
+2020-09-08 22:26:44,724 - root - DEBUG - Loading image 22...
+2020-09-08 22:26:44,724 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0022.png doesn't exist.
+2020-09-08 22:26:44,725 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,725 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,725 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,725 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 684
+2020-09-08 22:26:44,725 - root - DEBUG - Loading resources for 3.3.2 '<class 'watchFaceParser.elements.basicElements.imageSet.ImageSet'>'
+2020-09-08 22:26:44,725 - root - DEBUG - Loading resources for 3.10 '<class 'watchFaceParser.elements.basicElements.image.Image'>'
+2020-09-08 22:26:44,725 - root - DEBUG - Loading resources for 5 '<class 'watchFaceParser.elements.date.Date'>'
+2020-09-08 22:26:44,725 - root - DEBUG - Loading resources for 5.1 '<class 'watchFaceParser.elements.dateElements.monthAndDay.MonthAndDay'>'
+2020-09-08 22:26:44,725 - root - DEBUG - Loading resources for 5.1.1 '<class 'watchFaceParser.elements.dateElements.separateMonthAndDay.SeparateMonthAndDay'>'
+2020-09-08 22:26:44,725 - root - DEBUG - Loading resources for 5.1.1.1 '<class 'watchFaceParser.elements.basicElements.number.Number'>'
+2020-09-08 22:26:44,725 - root - DEBUG - Loading resources for 5.1.1.1.5 '<class 'watchFaceParser.models.textAlignment.TextAlignment'>'
+2020-09-08 22:26:44,725 - root - DEBUG - Loading resources for 5.1.1.3 '<class 'watchFaceParser.elements.basicElements.number.Number'>'
+2020-09-08 22:26:44,725 - root - DEBUG - Loading resources for 5.1.1.3.5 '<class 'watchFaceParser.models.textAlignment.TextAlignment'>'
+2020-09-08 22:26:44,725 - root - DEBUG - Loading resources for 5.1.3 'bool'
+2020-09-08 22:26:44,725 - root - DEBUG - Loading resources for 5.1.4 'bool'
+2020-09-08 22:26:44,725 - root - DEBUG - Loading resources for 5.2 '<class 'watchFaceParser.elements.basicElements.imageSet.ImageSet'>'
+2020-09-08 22:26:44,725 - root - DEBUG - Request image index 23...
+2020-09-08 22:26:44,725 - root - DEBUG - Loading image 23...
+2020-09-08 22:26:44,725 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0023.png doesn't exist.
+2020-09-08 22:26:44,725 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,726 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,726 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,726 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 658
+2020-09-08 22:26:44,726 - root - DEBUG - Request image index 24...
+2020-09-08 22:26:44,726 - root - DEBUG - Loading image 24...
+2020-09-08 22:26:44,726 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0024.png doesn't exist.
+2020-09-08 22:26:44,726 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,726 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,726 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,726 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1165
+2020-09-08 22:26:44,726 - root - DEBUG - Request image index 25...
+2020-09-08 22:26:44,726 - root - DEBUG - Loading image 25...
+2020-09-08 22:26:44,726 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0025.png doesn't exist.
+2020-09-08 22:26:44,726 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,726 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,726 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,726 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1131
+2020-09-08 22:26:44,727 - root - DEBUG - Request image index 26...
+2020-09-08 22:26:44,727 - root - DEBUG - Loading image 26...
+2020-09-08 22:26:44,727 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0026.png doesn't exist.
+2020-09-08 22:26:44,727 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,727 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,727 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,727 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1220
+2020-09-08 22:26:44,727 - root - DEBUG - Request image index 27...
+2020-09-08 22:26:44,727 - root - DEBUG - Loading image 27...
+2020-09-08 22:26:44,727 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0027.png doesn't exist.
+2020-09-08 22:26:44,727 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,727 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,727 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,727 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1163
+2020-09-08 22:26:44,727 - root - DEBUG - Request image index 28...
+2020-09-08 22:26:44,727 - root - DEBUG - Loading image 28...
+2020-09-08 22:26:44,727 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0028.png doesn't exist.
+2020-09-08 22:26:44,728 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,728 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,728 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,728 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1556
+2020-09-08 22:26:44,728 - root - DEBUG - Request image index 29...
+2020-09-08 22:26:44,728 - root - DEBUG - Loading image 29...
+2020-09-08 22:26:44,728 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0029.png doesn't exist.
+2020-09-08 22:26:44,728 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,728 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,728 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,728 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1386
+2020-09-08 22:26:44,728 - root - DEBUG - Loading resources for 6 '<class 'watchFaceParser.elements.weather.Weather'>'
+2020-09-08 22:26:44,728 - root - DEBUG - Loading resources for 6.1 '<class 'watchFaceParser.elements.weatherElements.icon.Icon'>'
+2020-09-08 22:26:44,728 - root - DEBUG - Loading resources for 6.1.1 '<class 'watchFaceParser.elements.basicElements.imageSet.ImageSet'>'
+2020-09-08 22:26:44,728 - root - DEBUG - Request image index 32...
+2020-09-08 22:26:44,728 - root - DEBUG - Loading image 30...
+2020-09-08 22:26:44,729 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0030.png doesn't exist.
+2020-09-08 22:26:44,729 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,729 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,729 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,729 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1081
+2020-09-08 22:26:44,729 - root - DEBUG - Loading image 31...
+2020-09-08 22:26:44,729 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0031.png doesn't exist.
+2020-09-08 22:26:44,729 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,729 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,729 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,729 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 780
+2020-09-08 22:26:44,729 - root - DEBUG - Loading image 32...
+2020-09-08 22:26:44,729 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0032.png doesn't exist.
+2020-09-08 22:26:44,730 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,730 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,730 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,730 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1177
+2020-09-08 22:26:44,730 - root - DEBUG - Request image index 33...
+2020-09-08 22:26:44,730 - root - DEBUG - Loading image 33...
+2020-09-08 22:26:44,730 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0033.png doesn't exist.
+2020-09-08 22:26:44,730 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,730 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,730 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,730 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1244
+2020-09-08 22:26:44,730 - root - DEBUG - Request image index 34...
+2020-09-08 22:26:44,730 - root - DEBUG - Loading image 34...
+2020-09-08 22:26:44,730 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0034.png doesn't exist.
+2020-09-08 22:26:44,730 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,730 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,730 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,730 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1282
+2020-09-08 22:26:44,731 - root - DEBUG - Request image index 35...
+2020-09-08 22:26:44,731 - root - DEBUG - Loading image 35...
+2020-09-08 22:26:44,731 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0035.png doesn't exist.
+2020-09-08 22:26:44,731 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,731 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,731 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,731 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1804
+2020-09-08 22:26:44,731 - root - DEBUG - Request image index 36...
+2020-09-08 22:26:44,731 - root - DEBUG - Loading image 36...
+2020-09-08 22:26:44,731 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0036.png doesn't exist.
+2020-09-08 22:26:44,731 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,731 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,731 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,731 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 989
+2020-09-08 22:26:44,731 - root - DEBUG - Request image index 37...
+2020-09-08 22:26:44,731 - root - DEBUG - Loading image 37...
+2020-09-08 22:26:44,731 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0037.png doesn't exist.
+2020-09-08 22:26:44,732 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,732 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,732 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,732 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 993
+2020-09-08 22:26:44,732 - root - DEBUG - Request image index 38...
+2020-09-08 22:26:44,732 - root - DEBUG - Loading image 38...
+2020-09-08 22:26:44,732 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0038.png doesn't exist.
+2020-09-08 22:26:44,732 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,732 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,732 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,732 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1061
+2020-09-08 22:26:44,732 - root - DEBUG - Request image index 39...
+2020-09-08 22:26:44,732 - root - DEBUG - Loading image 39...
+2020-09-08 22:26:44,732 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0039.png doesn't exist.
+2020-09-08 22:26:44,733 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,733 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,733 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,733 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1247
+2020-09-08 22:26:44,733 - root - DEBUG - Request image index 40...
+2020-09-08 22:26:44,733 - root - DEBUG - Loading image 40...
+2020-09-08 22:26:44,733 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0040.png doesn't exist.
+2020-09-08 22:26:44,733 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,733 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,733 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,733 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1278
+2020-09-08 22:26:44,733 - root - DEBUG - Request image index 41...
+2020-09-08 22:26:44,733 - root - DEBUG - Loading image 41...
+2020-09-08 22:26:44,733 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0041.png doesn't exist.
+2020-09-08 22:26:44,733 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,733 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,733 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,733 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1082
+2020-09-08 22:26:44,734 - root - DEBUG - Request image index 42...
+2020-09-08 22:26:44,734 - root - DEBUG - Loading image 42...
+2020-09-08 22:26:44,734 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0042.png doesn't exist.
+2020-09-08 22:26:44,734 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,734 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,734 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,734 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 987
+2020-09-08 22:26:44,734 - root - DEBUG - Request image index 43...
+2020-09-08 22:26:44,734 - root - DEBUG - Loading image 43...
+2020-09-08 22:26:44,734 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0043.png doesn't exist.
+2020-09-08 22:26:44,734 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,734 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,734 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,734 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1375
+2020-09-08 22:26:44,735 - root - DEBUG - Request image index 44...
+2020-09-08 22:26:44,735 - root - DEBUG - Loading image 44...
+2020-09-08 22:26:44,735 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0044.png doesn't exist.
+2020-09-08 22:26:44,735 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,735 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,735 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,735 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1137
+2020-09-08 22:26:44,735 - root - DEBUG - Request image index 45...
+2020-09-08 22:26:44,735 - root - DEBUG - Loading image 45...
+2020-09-08 22:26:44,735 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0045.png doesn't exist.
+2020-09-08 22:26:44,735 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,735 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,735 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,735 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1853
+2020-09-08 22:26:44,735 - root - DEBUG - Request image index 46...
+2020-09-08 22:26:44,735 - root - DEBUG - Loading image 46...
+2020-09-08 22:26:44,735 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0046.png doesn't exist.
+2020-09-08 22:26:44,736 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,736 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,736 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,736 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1271
+2020-09-08 22:26:44,736 - root - DEBUG - Request image index 47...
+2020-09-08 22:26:44,736 - root - DEBUG - Loading image 47...
+2020-09-08 22:26:44,736 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0047.png doesn't exist.
+2020-09-08 22:26:44,736 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,736 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,736 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,736 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1233
+2020-09-08 22:26:44,736 - root - DEBUG - Request image index 48...
+2020-09-08 22:26:44,736 - root - DEBUG - Loading image 48...
+2020-09-08 22:26:44,736 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0048.png doesn't exist.
+2020-09-08 22:26:44,737 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,737 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,737 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,737 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1082
+2020-09-08 22:26:44,737 - root - DEBUG - Request image index 49...
+2020-09-08 22:26:44,737 - root - DEBUG - Loading image 49...
+2020-09-08 22:26:44,737 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0049.png doesn't exist.
+2020-09-08 22:26:44,737 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,737 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,737 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,737 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 619
+2020-09-08 22:26:44,737 - root - DEBUG - Request image index 50...
+2020-09-08 22:26:44,737 - root - DEBUG - Loading image 50...
+2020-09-08 22:26:44,737 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0050.png doesn't exist.
+2020-09-08 22:26:44,737 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,737 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,737 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,738 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1000
+2020-09-08 22:26:44,738 - root - DEBUG - Request image index 51...
+2020-09-08 22:26:44,738 - root - DEBUG - Loading image 51...
+2020-09-08 22:26:44,738 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0051.png doesn't exist.
+2020-09-08 22:26:44,738 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,738 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,738 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,738 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1046
+2020-09-08 22:26:44,738 - root - DEBUG - Request image index 52...
+2020-09-08 22:26:44,738 - root - DEBUG - Loading image 52...
+2020-09-08 22:26:44,738 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0052.png doesn't exist.
+2020-09-08 22:26:44,738 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,738 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,738 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,738 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1046
+2020-09-08 22:26:44,738 - root - DEBUG - Request image index 53...
+2020-09-08 22:26:44,738 - root - DEBUG - Loading image 53...
+2020-09-08 22:26:44,739 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0053.png doesn't exist.
+2020-09-08 22:26:44,739 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,739 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,739 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,739 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 1000
+2020-09-08 22:26:44,739 - root - DEBUG - Request image index 54...
+2020-09-08 22:26:44,739 - root - DEBUG - Loading image 54...
+2020-09-08 22:26:44,739 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0054.png doesn't exist.
+2020-09-08 22:26:44,739 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,739 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,739 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,739 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 619
+2020-09-08 22:26:44,739 - root - DEBUG - Request image index 55...
+2020-09-08 22:26:44,739 - root - DEBUG - Loading image 55...
+2020-09-08 22:26:44,739 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0055.png doesn't exist.
+2020-09-08 22:26:44,740 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,740 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,740 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,740 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 2782
+2020-09-08 22:26:44,740 - root - DEBUG - Request image index 56...
+2020-09-08 22:26:44,740 - root - DEBUG - Loading image 56...
+2020-09-08 22:26:44,740 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0056.png doesn't exist.
+2020-09-08 22:26:44,740 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,740 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,740 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,740 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 805
+2020-09-08 22:26:44,740 - root - DEBUG - Request image index 57...
+2020-09-08 22:26:44,740 - root - DEBUG - Loading image 57...
+2020-09-08 22:26:44,740 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0057.png doesn't exist.
+2020-09-08 22:26:44,740 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,740 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,740 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,741 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 11
+2020-09-08 22:26:44,741 - root - DEBUG - Loading resources for 6.2 '<class 'watchFaceParser.elements.weatherElements.temperature.Temperature'>'
+2020-09-08 22:26:44,741 - root - DEBUG - Loading resources for 6.2.2 '<class 'watchFaceParser.elements.weatherElements.today.Today'>'
+2020-09-08 22:26:44,741 - root - DEBUG - Loading resources for 6.2.2.1 '<class 'watchFaceParser.elements.weatherElements.separate.Separate'>'
+2020-09-08 22:26:44,741 - root - DEBUG - Loading resources for 6.2.2.1.1 '<class 'watchFaceParser.elements.basicElements.number.Number'>'
+2020-09-08 22:26:44,741 - root - DEBUG - Loading resources for 6.2.2.1.1.5 '<class 'watchFaceParser.models.textAlignment.TextAlignment'>'
+2020-09-08 22:26:44,741 - root - DEBUG - Loading resources for 6.2.2.1.2 '<class 'watchFaceParser.elements.basicElements.number.Number'>'
+2020-09-08 22:26:44,741 - root - DEBUG - Loading resources for 6.2.2.1.2.5 '<class 'watchFaceParser.models.textAlignment.TextAlignment'>'
+2020-09-08 22:26:44,741 - root - DEBUG - Loading resources for 6.2.2.3 'bool'
+2020-09-08 22:26:44,741 - root - DEBUG - Loading resources for 6.2.3 '<class 'watchFaceParser.elements.weatherElements.symbols.Symbols'>'
+2020-09-08 22:26:44,741 - root - DEBUG - Request image index 59...
+2020-09-08 22:26:44,741 - root - DEBUG - Loading image 58...
+2020-09-08 22:26:44,741 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0058.png doesn't exist.
+2020-09-08 22:26:44,741 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,741 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,741 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,741 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 281
+2020-09-08 22:26:44,741 - root - DEBUG - Loading image 59...
+2020-09-08 22:26:44,741 - root - DEBUG - File C:\Users\LaXiS\Desktop\amazfit\simple\0059.png doesn't exist.
+2020-09-08 22:26:44,742 - PIL.PngImagePlugin - DEBUG - STREAM b'IHDR' 16 13
+2020-09-08 22:26:44,742 - PIL.PngImagePlugin - DEBUG - STREAM b'bKGD' 41 6
+2020-09-08 22:26:44,742 - PIL.PngImagePlugin - DEBUG - b'bKGD' 41 6 (unknown)
+2020-09-08 22:26:44,742 - PIL.PngImagePlugin - DEBUG - STREAM b'IDAT' 59 76
+2020-09-08 22:26:44,742 - root - DEBUG - Loading resources for 8 '<class 'watchFaceParser.elements.status.Status'>'
+2020-09-08 22:26:44,742 - root - DEBUG - Loading resources for 8.1 '<class 'watchFaceParser.elements.statusElements.switch.Switch'>'
+2020-09-08 22:26:44,742 - root - DEBUG - Loading resources for 8.1.1 '<class 'watchFaceParser.elements.basicElements.coordinates.Coordinates'>'
+2020-09-08 22:26:44,742 - root - DEBUG - Loading resources for 8.2 '<class 'watchFaceParser.elements.statusElements.switch.Switch'>'
+2020-09-08 22:26:44,742 - root - DEBUG - Loading resources for 8.2.1 '<class 'watchFaceParser.elements.basicElements.coordinates.Coordinates'>'
+2020-09-08 22:26:44,742 - root - DEBUG - Loading resources for 9 '<class 'watchFaceParser.elements.battery.Battery'>'
+2020-09-08 22:26:44,742 - root - DEBUG - Loading resources for 9.1 '<class 'watchFaceParser.elements.basicElements.number.Number'>'
+2020-09-08 22:26:44,742 - root - DEBUG - Loading resources for 9.1.5 '<class 'watchFaceParser.models.textAlignment.TextAlignment'>'
+2020-09-08 22:26:44,742 - root - DEBUG - Loading resources for 16 '<class 'watchFaceParser.elements.shortcuts.Shortcuts'>'
+2020-09-08 22:26:44,742 - root - DEBUG - Loading resources for 16.3 '<class 'watchFaceParser.elements.shortcutsElements.shortcut.Shortcut'>'
+2020-09-08 22:26:44,742 - root - DEBUG - Loading resources for 16.3.1 '<class 'watchFaceParser.elements.shortcutsElements.element.Element'>'
+2020-09-08 22:26:44,742 - root - DEBUG - Loading resources for 16.4 '<class 'watchFaceParser.elements.shortcutsElements.shortcut.Shortcut'>'
+2020-09-08 22:26:44,742 - root - DEBUG - Loading resources for 16.4.1 '<class 'watchFaceParser.elements.shortcutsElements.element.Element'>'
+2020-09-08 22:26:44,742 - root - DEBUG - Building parameters for watch face...
+2020-09-08 22:26:44,742 - root - DEBUG - 0.1 'DeviceId': 46
+2020-09-08 22:26:44,742 - root - DEBUG - 0 'Info'
+2020-09-08 22:26:44,742 - root - DEBUG - 2.1.1 'X': 0
+2020-09-08 22:26:44,743 - root - DEBUG - 2.1.2 'Y': 0
+2020-09-08 22:26:44,743 - root - DEBUG - 2.1.3 'ImageIndex': 0
+2020-09-08 22:26:44,743 - root - DEBUG - 2.1 'Image'
+2020-09-08 22:26:44,743 - root - DEBUG - 2.3.1 'X': 0
+2020-09-08 22:26:44,743 - root - DEBUG - 2.3.2 'Y': 0
+2020-09-08 22:26:44,743 - root - DEBUG - 2.3.3 'ImageIndex': 1
+2020-09-08 22:26:44,743 - root - DEBUG - 2.3 'Preview'
+2020-09-08 22:26:44,743 - root - DEBUG - 2 'Background'
+2020-09-08 22:26:44,743 - root - DEBUG - 3.1.1.1 'X': 9
+2020-09-08 22:26:44,743 - root - DEBUG - 3.1.1.2 'Y': 171
+2020-09-08 22:26:44,743 - root - DEBUG - 3.1.1.3 'ImageIndex': 2
+2020-09-08 22:26:44,743 - root - DEBUG - 3.1.1.4 'ImagesCount': 10
+2020-09-08 22:26:44,743 - root - DEBUG - 3.1.1 'Tens'
+2020-09-08 22:26:44,744 - root - DEBUG - 3.1.2.1 'X': 83
+2020-09-08 22:26:44,744 - root - DEBUG - 3.1.2.2 'Y': 171
+2020-09-08 22:26:44,744 - root - DEBUG - 3.1.2.3 'ImageIndex': 2
+2020-09-08 22:26:44,744 - root - DEBUG - 3.1.2.4 'ImagesCount': 10
+2020-09-08 22:26:44,744 - root - DEBUG - 3.1.2 'Ones'
+2020-09-08 22:26:44,744 - root - DEBUG - 3.1 'Hours'
+2020-09-08 22:26:44,744 - root - DEBUG - 3.2.1.1 'X': 191
+2020-09-08 22:26:44,744 - root - DEBUG - 3.2.1.2 'Y': 171
+2020-09-08 22:26:44,744 - root - DEBUG - 3.2.1.3 'ImageIndex': 2
+2020-09-08 22:26:44,744 - root - DEBUG - 3.2.1.4 'ImagesCount': 10
+2020-09-08 22:26:44,744 - root - DEBUG - 3.2.1 'Tens'
+2020-09-08 22:26:44,744 - root - DEBUG - 3.2.2.1 'X': 264
+2020-09-08 22:26:44,744 - root - DEBUG - 3.2.2.2 'Y': 171
+2020-09-08 22:26:44,744 - root - DEBUG - 3.2.2.3 'ImageIndex': 2
+2020-09-08 22:26:44,744 - root - DEBUG - 3.2.2.4 'ImagesCount': 10
+2020-09-08 22:26:44,744 - root - DEBUG - 3.2.2 'Ones'
+2020-09-08 22:26:44,744 - root - DEBUG - 3.2 'Minutes'
+2020-09-08 22:26:44,744 - root - DEBUG - 3.3.1.1 'X': 272
+2020-09-08 22:26:44,744 - root - DEBUG - 3.3.1.2 'Y': 276
+2020-09-08 22:26:44,744 - root - DEBUG - 3.3.1.3 'ImageIndex': 13
+2020-09-08 22:26:44,744 - root - DEBUG - 3.3.1.4 'ImagesCount': 10
+2020-09-08 22:26:44,744 - root - DEBUG - 3.3.1 'Tens'
+2020-09-08 22:26:44,744 - root - DEBUG - 3.3.2.1 'X': 302
+2020-09-08 22:26:44,744 - root - DEBUG - 3.3.2.2 'Y': 276
+2020-09-08 22:26:44,744 - root - DEBUG - 3.3.2.3 'ImageIndex': 13
+2020-09-08 22:26:44,744 - root - DEBUG - 3.3.2.4 'ImagesCount': 10
+2020-09-08 22:26:44,744 - root - DEBUG - 3.3.2 'Ones'
+2020-09-08 22:26:44,745 - root - DEBUG - 3.3 'Seconds'
+2020-09-08 22:26:44,745 - root - DEBUG - 3.10.1 'X': 157
+2020-09-08 22:26:44,745 - root - DEBUG - 3.10.2 'Y': 171
+2020-09-08 22:26:44,745 - root - DEBUG - 3.10.3 'ImageIndex': 12
+2020-09-08 22:26:44,745 - root - DEBUG - 3.10 'Delimiter'
+2020-09-08 22:26:44,745 - root - DEBUG - 3 'Time'
+2020-09-08 22:26:44,745 - root - DEBUG - 5.1.1.1.1 'TopLeftX': 272
+2020-09-08 22:26:44,745 - root - DEBUG - 5.1.1.1.2 'TopLeftY': 113
+2020-09-08 22:26:44,745 - root - DEBUG - 5.1.1.1.3 'BottomRightX': 0
+2020-09-08 22:26:44,745 - root - DEBUG - 5.1.1.1.4 'BottomRightY': 0
+2020-09-08 22:26:44,745 - root - DEBUG - 5.1.1.1.5 'Alignment': 18
+2020-09-08 22:26:44,745 - root - DEBUG - 5.1.1.1.6 'Spacing': 0
+2020-09-08 22:26:44,745 - root - DEBUG - 5.1.1.1.7 'ImageIndex': 13
+2020-09-08 22:26:44,745 - root - DEBUG - 5.1.1.1.8 'ImagesCount': 10
+2020-09-08 22:26:44,745 - root - DEBUG - 5.1.1.1 'Month'
+2020-09-08 22:26:44,745 - root - DEBUG - 5.1.1.3.1 'TopLeftX': 187
+2020-09-08 22:26:44,745 - root - DEBUG - 5.1.1.3.2 'TopLeftY': 113
+2020-09-08 22:26:44,745 - root - DEBUG - 5.1.1.3.3 'BottomRightX': 0
+2020-09-08 22:26:44,745 - root - DEBUG - 5.1.1.3.4 'BottomRightY': 0
+2020-09-08 22:26:44,745 - root - DEBUG - 5.1.1.3.5 'Alignment': 18
+2020-09-08 22:26:44,745 - root - DEBUG - 5.1.1.3.6 'Spacing': 0
+2020-09-08 22:26:44,745 - root - DEBUG - 5.1.1.3.7 'ImageIndex': 13
+2020-09-08 22:26:44,745 - root - DEBUG - 5.1.1.3.8 'ImagesCount': 10
+2020-09-08 22:26:44,745 - root - DEBUG - 5.1.1.3 'Day'
+2020-09-08 22:26:44,745 - root - DEBUG - 5.1.1 'Separate'
+2020-09-08 22:26:44,745 - root - DEBUG - 5.1.3 'TwoDigitsMonth': 1
+2020-09-08 22:26:44,746 - root - DEBUG - 5.1.4 'TwoDigitsDay': 1
+2020-09-08 22:26:44,746 - root - DEBUG - 5.1 'MonthAndDay'
+2020-09-08 22:26:44,746 - root - DEBUG - 5.2.1 'X': 14
+2020-09-08 22:26:44,746 - root - DEBUG - 5.2.2 'Y': 113
+2020-09-08 22:26:44,746 - root - DEBUG - 5.2.3 'ImageIndex': 23
+2020-09-08 22:26:44,746 - root - DEBUG - 5.2.4 'ImagesCount': 7
+2020-09-08 22:26:44,746 - root - DEBUG - 5.2 'WeekDay'
+2020-09-08 22:26:44,746 - root - DEBUG - 5 'Date'
+2020-09-08 22:26:44,746 - root - DEBUG - 6.1.1.1 'X': 24
+2020-09-08 22:26:44,746 - root - DEBUG - 6.1.1.2 'Y': 30
+2020-09-08 22:26:44,746 - root - DEBUG - 6.1.1.3 'ImageIndex': 32
+2020-09-08 22:26:44,746 - root - DEBUG - 6.1.1.4 'ImagesCount': 25
+2020-09-08 22:26:44,746 - root - DEBUG - 6.1.1 'Images'
+2020-09-08 22:26:44,746 - root - DEBUG - 6.1.2 'NoWeatherImageIndex': 57
+2020-09-08 22:26:44,746 - root - DEBUG - 6.1 'Icon'
+2020-09-08 22:26:44,746 - root - DEBUG - 6.2.2.1.1.1 'TopLeftX': 108
+2020-09-08 22:26:44,746 - root - DEBUG - 6.2.2.1.1.2 'TopLeftY': 7
+2020-09-08 22:26:44,746 - root - DEBUG - 6.2.2.1.1.3 'BottomRightX': 211
+2020-09-08 22:26:44,746 - root - DEBUG - 6.2.2.1.1.4 'BottomRightY': 49
+2020-09-08 22:26:44,746 - root - DEBUG - 6.2.2.1.1.5 'Alignment': 18
+2020-09-08 22:26:44,746 - root - DEBUG - 6.2.2.1.1.6 'Spacing': 0
+2020-09-08 22:26:44,746 - root - DEBUG - 6.2.2.1.1.7 'ImageIndex': 13
+2020-09-08 22:26:44,746 - root - DEBUG - 6.2.2.1.1.8 'ImagesCount': 10
+2020-09-08 22:26:44,746 - root - DEBUG - 6.2.2.1.1 'Day'
+2020-09-08 22:26:44,746 - root - DEBUG - 6.2.2.1.2.1 'TopLeftX': 108
+2020-09-08 22:26:44,746 - root - DEBUG - 6.2.2.1.2.2 'TopLeftY': 55
+2020-09-08 22:26:44,747 - root - DEBUG - 6.2.2.1.2.3 'BottomRightX': 211
+2020-09-08 22:26:44,747 - root - DEBUG - 6.2.2.1.2.4 'BottomRightY': 97
+2020-09-08 22:26:44,747 - root - DEBUG - 6.2.2.1.2.5 'Alignment': 18
+2020-09-08 22:26:44,747 - root - DEBUG - 6.2.2.1.2.6 'Spacing': 0
+2020-09-08 22:26:44,747 - root - DEBUG - 6.2.2.1.2.7 'ImageIndex': 13
+2020-09-08 22:26:44,747 - root - DEBUG - 6.2.2.1.2.8 'ImagesCount': 10
+2020-09-08 22:26:44,747 - root - DEBUG - 6.2.2.1.2 'Night'
+2020-09-08 22:26:44,747 - root - DEBUG - 6.2.2.1 'Separate'
+2020-09-08 22:26:44,747 - root - DEBUG - 6.2.2.3 'AppendDegreesForBoth': 1
+2020-09-08 22:26:44,747 - root - DEBUG - 6.2.2 'Today'
+2020-09-08 22:26:44,747 - root - DEBUG - 6.2.3.1 'Unknown0800': 0
+2020-09-08 22:26:44,747 - root - DEBUG - 6.2.3.2 'MinusImageIndex': 59
+2020-09-08 22:26:44,747 - root - DEBUG - 6.2.3.3 'DegreesImageIndex': 58
+2020-09-08 22:26:44,747 - root - DEBUG - 6.2.3.4 'NoDataImageIndex': 57
+2020-09-08 22:26:44,747 - root - DEBUG - 6.2.3 'Symbols'
+2020-09-08 22:26:44,747 - root - DEBUG - 6.2 'Temperature'
+2020-09-08 22:26:44,747 - root - DEBUG - 6 'Weather'
+2020-09-08 22:26:44,747 - root - DEBUG - 8.1.1.1 'X': 36
+2020-09-08 22:26:44,747 - root - DEBUG - 8.1.1.2 'Y': 283
+2020-09-08 22:26:44,747 - root - DEBUG - 8.1.1 'Coordinates'
+2020-09-08 22:26:44,747 - root - DEBUG - 8.1.2 'ImageIndexOn': 30
+2020-09-08 22:26:44,747 - root - DEBUG - 8.1 'Bluetooth'
+2020-09-08 22:26:44,747 - root - DEBUG - 8.2.1.1 'X': 83
+2020-09-08 22:26:44,747 - root - DEBUG - 8.2.1.2 'Y': 283
+2020-09-08 22:26:44,747 - root - DEBUG - 8.2.1 'Coordinates'
+2020-09-08 22:26:44,747 - root - DEBUG - 8.2.2 'ImageIndexOn': 31
+2020-09-08 22:26:44,747 - root - DEBUG - 8.2 'Alarm'
+2020-09-08 22:26:44,748 - root - DEBUG - 8 'Status'
+2020-09-08 22:26:44,748 - root - DEBUG - 9.1.1 'TopLeftX': 234
+2020-09-08 22:26:44,748 - root - DEBUG - 9.1.2 'TopLeftY': 55
+2020-09-08 22:26:44,748 - root - DEBUG - 9.1.3 'BottomRightX': 323
+2020-09-08 22:26:44,748 - root - DEBUG - 9.1.4 'BottomRightY': 97
+2020-09-08 22:26:44,748 - root - DEBUG - 9.1.5 'Alignment': 24
+2020-09-08 22:26:44,748 - root - DEBUG - 9.1.6 'Spacing': 0
+2020-09-08 22:26:44,748 - root - DEBUG - 9.1.7 'ImageIndex': 13
+2020-09-08 22:26:44,748 - root - DEBUG - 9.1.8 'ImagesCount': 10
+2020-09-08 22:26:44,748 - root - DEBUG - 9.1 'Text'
+2020-09-08 22:26:44,748 - root - DEBUG - 9 'Battery'
+2020-09-08 22:26:44,748 - root - DEBUG - 16.3.1.1 'TopLeftX': 0
+2020-09-08 22:26:44,748 - root - DEBUG - 16.3.1.2 'TopLeftY': 0
+2020-09-08 22:26:44,748 - root - DEBUG - 16.3.1.3 'Width': 215
+2020-09-08 22:26:44,748 - root - DEBUG - 16.3.1.4 'Height': 102
+2020-09-08 22:26:44,748 - root - DEBUG - 16.3.1 'Element'
+2020-09-08 22:26:44,748 - root - DEBUG - 16.3 'Weather'
+2020-09-08 22:26:44,748 - root - DEBUG - 16.4.1.1 'TopLeftX': 215
+2020-09-08 22:26:44,748 - root - DEBUG - 16.4.1.2 'TopLeftY': 0
+2020-09-08 22:26:44,748 - root - DEBUG - 16.4.1.3 'Width': 133
+2020-09-08 22:26:44,748 - root - DEBUG - 16.4.1.4 'Height': 102
+2020-09-08 22:26:44,748 - root - DEBUG - 16.4.1 'Element'
+2020-09-08 22:26:44,748 - root - DEBUG - 16.4 'Unknown4'
+2020-09-08 22:26:44,748 - root - DEBUG - 16 'Shortcuts'
+2020-09-08 22:26:44,748 - root - DEBUG - Generating previews...
+2020-09-08 22:26:44,750 - root - DEBUG - Generating states done...
+2020-09-08 22:26:44,759 - root - DEBUG - Generating static preview gen done...
+2020-09-08 22:26:44,779 - root - DEBUG - Generating static preview save done...
+2020-09-08 22:26:44,779 - root - DEBUG - Generating anim preview gen done...
+2020-09-08 22:26:44,836 - root - DEBUG - Writing watch face to 'C:\Users\LaXiS\Desktop\amazfit\simple\simple_packed.bin'
+2020-09-08 22:26:44,836 - root - DEBUG - Encoding parameters...
+2020-09-08 22:26:44,836 - root - DEBUG - Parameter: 2
+2020-09-08 22:26:44,836 - root - DEBUG - 1 (0A):
+2020-09-08 22:26:44,836 - root - DEBUG - 	1 (08): 0 (00)
+2020-09-08 22:26:44,836 - root - DEBUG - 	2 (10): 0 (00)
+2020-09-08 22:26:44,837 - root - DEBUG - 	3 (18): 0 (00)
+2020-09-08 22:26:44,837 - root - DEBUG - 8 bytes
+2020-09-08 22:26:44,837 - root - DEBUG - 3 (1A):
+2020-09-08 22:26:44,837 - root - DEBUG - 	1 (08): 0 (00)
+2020-09-08 22:26:44,837 - root - DEBUG - 	2 (10): 0 (00)
+2020-09-08 22:26:44,837 - root - DEBUG - 	3 (18): 1 (01)
+2020-09-08 22:26:44,837 - root - DEBUG - 8 bytes
+2020-09-08 22:26:44,837 - root - DEBUG - Parameter: 3
+2020-09-08 22:26:44,837 - root - DEBUG - 1 (0A):
+2020-09-08 22:26:44,837 - root - DEBUG - 	1 (0A):
+2020-09-08 22:26:44,837 - root - DEBUG - 		1 (08): 9 (09)
+2020-09-08 22:26:44,837 - root - DEBUG - 		2 (10): 171 (AB)
+2020-09-08 22:26:44,837 - root - DEBUG - 		3 (18): 2 (02)
+2020-09-08 22:26:44,837 - root - DEBUG - 		4 (20): 10 (0A)
+2020-09-08 22:26:44,837 - root - DEBUG - 	11 bytes
+2020-09-08 22:26:44,837 - root - DEBUG - 	2 (12):
+2020-09-08 22:26:44,837 - root - DEBUG - 		1 (08): 83 (53)
+2020-09-08 22:26:44,837 - root - DEBUG - 		2 (10): 171 (AB)
+2020-09-08 22:26:44,837 - root - DEBUG - 		3 (18): 2 (02)
+2020-09-08 22:26:44,837 - root - DEBUG - 		4 (20): 10 (0A)
+2020-09-08 22:26:44,837 - root - DEBUG - 	11 bytes
+2020-09-08 22:26:44,837 - root - DEBUG - 24 bytes
+2020-09-08 22:26:44,838 - root - DEBUG - 2 (12):
+2020-09-08 22:26:44,838 - root - DEBUG - 	1 (0A):
+2020-09-08 22:26:44,838 - root - DEBUG - 		1 (08): 191 (BF)
+2020-09-08 22:26:44,838 - root - DEBUG - 		2 (10): 171 (AB)
+2020-09-08 22:26:44,838 - root - DEBUG - 		3 (18): 2 (02)
+2020-09-08 22:26:44,838 - root - DEBUG - 		4 (20): 10 (0A)
+2020-09-08 22:26:44,838 - root - DEBUG - 	12 bytes
+2020-09-08 22:26:44,838 - root - DEBUG - 	2 (12):
+2020-09-08 22:26:44,838 - root - DEBUG - 		1 (08): 264 (108)
+2020-09-08 22:26:44,838 - root - DEBUG - 		2 (10): 171 (AB)
+2020-09-08 22:26:44,838 - root - DEBUG - 		3 (18): 2 (02)
+2020-09-08 22:26:44,838 - root - DEBUG - 		4 (20): 10 (0A)
+2020-09-08 22:26:44,838 - root - DEBUG - 	12 bytes
+2020-09-08 22:26:44,838 - root - DEBUG - 26 bytes
+2020-09-08 22:26:44,838 - root - DEBUG - 3 (1A):
+2020-09-08 22:26:44,838 - root - DEBUG - 	1 (0A):
+2020-09-08 22:26:44,838 - root - DEBUG - 		1 (08): 272 (110)
+2020-09-08 22:26:44,838 - root - DEBUG - 		2 (10): 276 (114)
+2020-09-08 22:26:44,838 - root - DEBUG - 		3 (18): 13 (0D)
+2020-09-08 22:26:44,838 - root - DEBUG - 		4 (20): 10 (0A)
+2020-09-08 22:26:44,838 - root - DEBUG - 	12 bytes
+2020-09-08 22:26:44,838 - root - DEBUG - 	2 (12):
+2020-09-08 22:26:44,838 - root - DEBUG - 		1 (08): 302 (12E)
+2020-09-08 22:26:44,838 - root - DEBUG - 		2 (10): 276 (114)
+2020-09-08 22:26:44,838 - root - DEBUG - 		3 (18): 13 (0D)
+2020-09-08 22:26:44,838 - root - DEBUG - 		4 (20): 10 (0A)
+2020-09-08 22:26:44,839 - root - DEBUG - 	12 bytes
+2020-09-08 22:26:44,839 - root - DEBUG - 26 bytes
+2020-09-08 22:26:44,839 - root - DEBUG - 10 (52):
+2020-09-08 22:26:44,839 - root - DEBUG - 	1 (08): 157 (9D)
+2020-09-08 22:26:44,839 - root - DEBUG - 	2 (10): 171 (AB)
+2020-09-08 22:26:44,839 - root - DEBUG - 	3 (18): 12 (0C)
+2020-09-08 22:26:44,839 - root - DEBUG - 10 bytes
+2020-09-08 22:26:44,839 - root - DEBUG - Parameter: 5
+2020-09-08 22:26:44,839 - root - DEBUG - 1 (0A):
+2020-09-08 22:26:44,839 - root - DEBUG - 	1 (0A):
+2020-09-08 22:26:44,839 - root - DEBUG - 		1 (0A):
+2020-09-08 22:26:44,839 - root - DEBUG - 			1 (08): 272 (110)
+2020-09-08 22:26:44,839 - root - DEBUG - 			2 (10): 113 (71)
+2020-09-08 22:26:44,839 - root - DEBUG - 			3 (18): 0 (00)
+2020-09-08 22:26:44,839 - root - DEBUG - 			4 (20): 0 (00)
+2020-09-08 22:26:44,839 - root - DEBUG - 			5 (28): 18 (12)
+2020-09-08 22:26:44,839 - root - DEBUG - 			6 (30): 0 (00)
+2020-09-08 22:26:44,839 - root - DEBUG - 			7 (38): 13 (0D)
+2020-09-08 22:26:44,839 - root - DEBUG - 			8 (40): 10 (0A)
+2020-09-08 22:26:44,839 - root - DEBUG - 		19 bytes
+2020-09-08 22:26:44,839 - root - DEBUG - 		3 (1A):
+2020-09-08 22:26:44,839 - root - DEBUG - 			1 (08): 187 (BB)
+2020-09-08 22:26:44,839 - root - DEBUG - 			2 (10): 113 (71)
+2020-09-08 22:26:44,839 - root - DEBUG - 			3 (18): 0 (00)
+2020-09-08 22:26:44,839 - root - DEBUG - 			4 (20): 0 (00)
+2020-09-08 22:26:44,839 - root - DEBUG - 			5 (28): 18 (12)
+2020-09-08 22:26:44,839 - root - DEBUG - 			6 (30): 0 (00)
+2020-09-08 22:26:44,840 - root - DEBUG - 			7 (38): 13 (0D)
+2020-09-08 22:26:44,840 - root - DEBUG - 			8 (40): 10 (0A)
+2020-09-08 22:26:44,840 - root - DEBUG - 		19 bytes
+2020-09-08 22:26:44,840 - root - DEBUG - 	40 bytes
+2020-09-08 22:26:44,840 - root - DEBUG - 	3 (18): 1 (01)
+2020-09-08 22:26:44,840 - root - DEBUG - 	4 (20): 1 (01)
+2020-09-08 22:26:44,840 - root - DEBUG - 46 bytes
+2020-09-08 22:26:44,840 - root - DEBUG - 2 (12):
+2020-09-08 22:26:44,840 - root - DEBUG - 	1 (08): 14 (0E)
+2020-09-08 22:26:44,840 - root - DEBUG - 	2 (10): 113 (71)
+2020-09-08 22:26:44,840 - root - DEBUG - 	3 (18): 23 (17)
+2020-09-08 22:26:44,840 - root - DEBUG - 	4 (20): 7 (07)
+2020-09-08 22:26:44,840 - root - DEBUG - 10 bytes
+2020-09-08 22:26:44,840 - root - DEBUG - Parameter: 6
+2020-09-08 22:26:44,840 - root - DEBUG - 1 (0A):
+2020-09-08 22:26:44,840 - root - DEBUG - 	1 (0A):
+2020-09-08 22:26:44,840 - root - DEBUG - 		1 (08): 24 (18)
+2020-09-08 22:26:44,840 - root - DEBUG - 		2 (10): 30 (1E)
+2020-09-08 22:26:44,840 - root - DEBUG - 		3 (18): 32 (20)
+2020-09-08 22:26:44,840 - root - DEBUG - 		4 (20): 25 (19)
+2020-09-08 22:26:44,840 - root - DEBUG - 	10 bytes
+2020-09-08 22:26:44,840 - root - DEBUG - 	2 (10): 57 (39)
+2020-09-08 22:26:44,840 - root - DEBUG - 14 bytes
+2020-09-08 22:26:44,840 - root - DEBUG - 2 (12):
+2020-09-08 22:26:44,840 - root - DEBUG - 	2 (12):
+2020-09-08 22:26:44,840 - root - DEBUG - 		1 (0A):
+2020-09-08 22:26:44,841 - root - DEBUG - 			1 (0A):
+2020-09-08 22:26:44,841 - root - DEBUG - 				1 (08): 108 (6C)
+2020-09-08 22:26:44,841 - root - DEBUG - 				2 (10): 7 (07)
+2020-09-08 22:26:44,841 - root - DEBUG - 				3 (18): 211 (D3)
+2020-09-08 22:26:44,841 - root - DEBUG - 				4 (20): 49 (31)
+2020-09-08 22:26:44,841 - root - DEBUG - 				5 (28): 18 (12)
+2020-09-08 22:26:44,841 - root - DEBUG - 				6 (30): 0 (00)
+2020-09-08 22:26:44,841 - root - DEBUG - 				7 (38): 13 (0D)
+2020-09-08 22:26:44,841 - root - DEBUG - 				8 (40): 10 (0A)
+2020-09-08 22:26:44,841 - root - DEBUG - 			19 bytes
+2020-09-08 22:26:44,841 - root - DEBUG - 			2 (12):
+2020-09-08 22:26:44,841 - root - DEBUG - 				1 (08): 108 (6C)
+2020-09-08 22:26:44,841 - root - DEBUG - 				2 (10): 55 (37)
+2020-09-08 22:26:44,841 - root - DEBUG - 				3 (18): 211 (D3)
+2020-09-08 22:26:44,841 - root - DEBUG - 				4 (20): 97 (61)
+2020-09-08 22:26:44,841 - root - DEBUG - 				5 (28): 18 (12)
+2020-09-08 22:26:44,841 - root - DEBUG - 				6 (30): 0 (00)
+2020-09-08 22:26:44,841 - root - DEBUG - 				7 (38): 13 (0D)
+2020-09-08 22:26:44,841 - root - DEBUG - 				8 (40): 10 (0A)
+2020-09-08 22:26:44,841 - root - DEBUG - 			19 bytes
+2020-09-08 22:26:44,841 - root - DEBUG - 		40 bytes
+2020-09-08 22:26:44,841 - root - DEBUG - 		3 (18): 1 (01)
+2020-09-08 22:26:44,841 - root - DEBUG - 	44 bytes
+2020-09-08 22:26:44,841 - root - DEBUG - 	3 (1A):
+2020-09-08 22:26:44,841 - root - DEBUG - 		1 (08): 0 (00)
+2020-09-08 22:26:44,841 - root - DEBUG - 		2 (10): 59 (3B)
+2020-09-08 22:26:44,841 - root - DEBUG - 		3 (18): 58 (3A)
+2020-09-08 22:26:44,842 - root - DEBUG - 		4 (20): 57 (39)
+2020-09-08 22:26:44,842 - root - DEBUG - 	10 bytes
+2020-09-08 22:26:44,842 - root - DEBUG - 56 bytes
+2020-09-08 22:26:44,842 - root - DEBUG - Parameter: 8
+2020-09-08 22:26:44,842 - root - DEBUG - 1 (0A):
+2020-09-08 22:26:44,842 - root - DEBUG - 	1 (0A):
+2020-09-08 22:26:44,842 - root - DEBUG - 		1 (08): 36 (24)
+2020-09-08 22:26:44,842 - root - DEBUG - 		2 (10): 283 (11B)
+2020-09-08 22:26:44,842 - root - DEBUG - 	7 bytes
+2020-09-08 22:26:44,842 - root - DEBUG - 	2 (10): 30 (1E)
+2020-09-08 22:26:44,842 - root - DEBUG - 11 bytes
+2020-09-08 22:26:44,842 - root - DEBUG - 2 (12):
+2020-09-08 22:26:44,842 - root - DEBUG - 	1 (0A):
+2020-09-08 22:26:44,842 - root - DEBUG - 		1 (08): 83 (53)
+2020-09-08 22:26:44,842 - root - DEBUG - 		2 (10): 283 (11B)
+2020-09-08 22:26:44,842 - root - DEBUG - 	7 bytes
+2020-09-08 22:26:44,842 - root - DEBUG - 	2 (10): 31 (1F)
+2020-09-08 22:26:44,842 - root - DEBUG - 11 bytes
+2020-09-08 22:26:44,842 - root - DEBUG - Parameter: 9
+2020-09-08 22:26:44,842 - root - DEBUG - 1 (0A):
+2020-09-08 22:26:44,842 - root - DEBUG - 	1 (08): 234 (EA)
+2020-09-08 22:26:44,842 - root - DEBUG - 	2 (10): 55 (37)
+2020-09-08 22:26:44,842 - root - DEBUG - 	3 (18): 323 (143)
+2020-09-08 22:26:44,842 - root - DEBUG - 	4 (20): 97 (61)
+2020-09-08 22:26:44,842 - root - DEBUG - 	5 (28): 24 (18)
+2020-09-08 22:26:44,843 - root - DEBUG - 	6 (30): 0 (00)
+2020-09-08 22:26:44,843 - root - DEBUG - 	7 (38): 13 (0D)
+2020-09-08 22:26:44,843 - root - DEBUG - 	8 (40): 10 (0A)
+2020-09-08 22:26:44,843 - root - DEBUG - 20 bytes
+2020-09-08 22:26:44,843 - root - DEBUG - Parameter: 16
+2020-09-08 22:26:44,843 - root - DEBUG - 3 (1A):
+2020-09-08 22:26:44,843 - root - DEBUG - 	1 (0A):
+2020-09-08 22:26:44,843 - root - DEBUG - 		1 (08): 0 (00)
+2020-09-08 22:26:44,843 - root - DEBUG - 		2 (10): 0 (00)
+2020-09-08 22:26:44,843 - root - DEBUG - 		3 (18): 215 (D7)
+2020-09-08 22:26:44,843 - root - DEBUG - 		4 (20): 102 (66)
+2020-09-08 22:26:44,843 - root - DEBUG - 	11 bytes
+2020-09-08 22:26:44,843 - root - DEBUG - 13 bytes
+2020-09-08 22:26:44,843 - root - DEBUG - 4 (22):
+2020-09-08 22:26:44,843 - root - DEBUG - 	1 (0A):
+2020-09-08 22:26:44,843 - root - DEBUG - 		1 (08): 215 (D7)
+2020-09-08 22:26:44,843 - root - DEBUG - 		2 (10): 0 (00)
+2020-09-08 22:26:44,843 - root - DEBUG - 		3 (18): 133 (85)
+2020-09-08 22:26:44,843 - root - DEBUG - 		4 (20): 102 (66)
+2020-09-08 22:26:44,843 - root - DEBUG - 	12 bytes
+2020-09-08 22:26:44,843 - root - DEBUG - 14 bytes
+2020-09-08 22:26:44,843 - root - DEBUG - Encoding offsets and lengths...
+2020-09-08 22:26:44,843 - root - DEBUG - 1 (0A):
+2020-09-08 22:26:44,844 - root - DEBUG - 	1 (08): 297 (129)
+2020-09-08 22:26:44,844 - root - DEBUG - 	2 (10): 60 (3C)
+2020-09-08 22:26:44,844 - root - DEBUG - 7 bytes
+2020-09-08 22:26:44,844 - root - DEBUG - 2 (12):
+2020-09-08 22:26:44,844 - root - DEBUG - 	1 (08): 0 (00)
+2020-09-08 22:26:44,844 - root - DEBUG - 	2 (10): 16 (10)
+2020-09-08 22:26:44,844 - root - DEBUG - 6 bytes
+2020-09-08 22:26:44,844 - root - DEBUG - 3 (1A):
+2020-09-08 22:26:44,844 - root - DEBUG - 	1 (08): 16 (10)
+2020-09-08 22:26:44,844 - root - DEBUG - 	2 (10): 86 (56)
+2020-09-08 22:26:44,844 - root - DEBUG - 6 bytes
+2020-09-08 22:26:44,844 - root - DEBUG - 5 (2A):
+2020-09-08 22:26:44,844 - root - DEBUG - 	1 (08): 102 (66)
+2020-09-08 22:26:44,844 - root - DEBUG - 	2 (10): 56 (38)
+2020-09-08 22:26:44,844 - root - DEBUG - 6 bytes
+2020-09-08 22:26:44,844 - root - DEBUG - 6 (32):
+2020-09-08 22:26:44,845 - root - DEBUG - 	1 (08): 158 (9E)
+2020-09-08 22:26:44,845 - root - DEBUG - 	2 (10): 70 (46)
+2020-09-08 22:26:44,845 - root - DEBUG - 7 bytes
+2020-09-08 22:26:44,845 - root - DEBUG - 8 (42):
+2020-09-08 22:26:44,845 - root - DEBUG - 	1 (08): 228 (E4)
+2020-09-08 22:26:44,845 - root - DEBUG - 	2 (10): 22 (16)
+2020-09-08 22:26:44,845 - root - DEBUG - 7 bytes
+2020-09-08 22:26:44,845 - root - DEBUG - 9 (4A):
+2020-09-08 22:26:44,845 - root - DEBUG - 	1 (08): 250 (FA)
+2020-09-08 22:26:44,845 - root - DEBUG - 	2 (10): 20 (14)
+2020-09-08 22:26:44,845 - root - DEBUG - 7 bytes
+2020-09-08 22:26:44,845 - root - DEBUG - 16 (82):
+2020-09-08 22:26:44,845 - root - DEBUG - 	1 (08): 270 (10E)
+2020-09-08 22:26:44,845 - root - DEBUG - 	2 (10): 27 (1B)
+2020-09-08 22:26:44,845 - root - DEBUG - 7 bytes
+2020-09-08 22:26:44,846 - root - DEBUG - Writing header...
+2020-09-08 22:26:44,846 - root - DEBUG - Writing parameters offsets and lengths...
+2020-09-08 22:26:44,846 - root - DEBUG - Writing parameters...
+2020-09-08 22:26:44,846 - root - DEBUG - Writing images...
+2020-09-08 22:26:44,847 - root - DEBUG - Resource 0 offset is 1...
+2020-09-08 22:26:44,847 - root - DEBUG - Encoding resource 0...
+2020-09-08 22:26:44,847 - root - DEBUG - Writing image header...
+2020-09-08 22:26:44,847 - root - DEBUG - Width: 348, Height: 442, RowLength: 1392
+2020-09-08 22:26:44,847 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:44,847 - root - DEBUG - Writing image...
+2020-09-08 22:26:44,974 - root - DEBUG - Resource 1 offset is 615289...
+2020-09-08 22:26:44,975 - root - DEBUG - Encoding resource 1...
+2020-09-08 22:26:44,975 - root - DEBUG - Writing image header...
+2020-09-08 22:26:44,975 - root - DEBUG - Width: 133, Height: 169, RowLength: 532
+2020-09-08 22:26:44,975 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:44,975 - root - DEBUG - Writing image...
+2020-09-08 22:26:44,999 - root - DEBUG - Resource 2 offset is 705221...
+2020-09-08 22:26:44,999 - root - DEBUG - Encoding resource 2...
+2020-09-08 22:26:44,999 - root - DEBUG - Writing image header...
+2020-09-08 22:26:44,999 - root - DEBUG - Width: 74, Height: 101, RowLength: 296
+2020-09-08 22:26:44,999 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,000 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,007 - root - DEBUG - Resource 3 offset is 735141...
+2020-09-08 22:26:45,007 - root - DEBUG - Encoding resource 3...
+2020-09-08 22:26:45,007 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,007 - root - DEBUG - Width: 74, Height: 101, RowLength: 296
+2020-09-08 22:26:45,007 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,007 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,015 - root - DEBUG - Resource 4 offset is 765061...
+2020-09-08 22:26:45,015 - root - DEBUG - Encoding resource 4...
+2020-09-08 22:26:45,015 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,015 - root - DEBUG - Width: 74, Height: 101, RowLength: 296
+2020-09-08 22:26:45,015 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,015 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,023 - root - DEBUG - Resource 5 offset is 794981...
+2020-09-08 22:26:45,023 - root - DEBUG - Encoding resource 5...
+2020-09-08 22:26:45,023 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,023 - root - DEBUG - Width: 74, Height: 101, RowLength: 296
+2020-09-08 22:26:45,023 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,023 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,031 - root - DEBUG - Resource 6 offset is 824901...
+2020-09-08 22:26:45,031 - root - DEBUG - Encoding resource 6...
+2020-09-08 22:26:45,031 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,031 - root - DEBUG - Width: 74, Height: 101, RowLength: 296
+2020-09-08 22:26:45,031 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,031 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,039 - root - DEBUG - Resource 7 offset is 854821...
+2020-09-08 22:26:45,039 - root - DEBUG - Encoding resource 7...
+2020-09-08 22:26:45,039 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,039 - root - DEBUG - Width: 74, Height: 101, RowLength: 296
+2020-09-08 22:26:45,039 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,039 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,047 - root - DEBUG - Resource 8 offset is 884741...
+2020-09-08 22:26:45,047 - root - DEBUG - Encoding resource 8...
+2020-09-08 22:26:45,047 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,047 - root - DEBUG - Width: 74, Height: 101, RowLength: 296
+2020-09-08 22:26:45,047 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,047 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,054 - root - DEBUG - Resource 9 offset is 914661...
+2020-09-08 22:26:45,054 - root - DEBUG - Encoding resource 9...
+2020-09-08 22:26:45,054 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,054 - root - DEBUG - Width: 74, Height: 101, RowLength: 296
+2020-09-08 22:26:45,054 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,054 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,062 - root - DEBUG - Resource 10 offset is 944581...
+2020-09-08 22:26:45,062 - root - DEBUG - Encoding resource 10...
+2020-09-08 22:26:45,062 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,062 - root - DEBUG - Width: 74, Height: 101, RowLength: 296
+2020-09-08 22:26:45,062 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,062 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,069 - root - DEBUG - Resource 11 offset is 974501...
+2020-09-08 22:26:45,069 - root - DEBUG - Encoding resource 11...
+2020-09-08 22:26:45,069 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,069 - root - DEBUG - Width: 74, Height: 101, RowLength: 296
+2020-09-08 22:26:45,069 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,069 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,075 - root - DEBUG - Resource 12 offset is 1004421...
+2020-09-08 22:26:45,075 - root - DEBUG - Encoding resource 12...
+2020-09-08 22:26:45,075 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,076 - root - DEBUG - Width: 34, Height: 101, RowLength: 136
+2020-09-08 22:26:45,076 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,076 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,078 - root - DEBUG - Resource 13 offset is 1018181...
+2020-09-08 22:26:45,078 - root - DEBUG - Encoding resource 13...
+2020-09-08 22:26:45,078 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,078 - root - DEBUG - Width: 30, Height: 43, RowLength: 120
+2020-09-08 22:26:45,078 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,078 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,080 - root - DEBUG - Resource 14 offset is 1023365...
+2020-09-08 22:26:45,080 - root - DEBUG - Encoding resource 14...
+2020-09-08 22:26:45,080 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,080 - root - DEBUG - Width: 30, Height: 43, RowLength: 120
+2020-09-08 22:26:45,080 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,080 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,081 - root - DEBUG - Resource 15 offset is 1028549...
+2020-09-08 22:26:45,081 - root - DEBUG - Encoding resource 15...
+2020-09-08 22:26:45,081 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,081 - root - DEBUG - Width: 30, Height: 43, RowLength: 120
+2020-09-08 22:26:45,081 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,081 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,082 - root - DEBUG - Resource 16 offset is 1033733...
+2020-09-08 22:26:45,082 - root - DEBUG - Encoding resource 16...
+2020-09-08 22:26:45,082 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,082 - root - DEBUG - Width: 30, Height: 43, RowLength: 120
+2020-09-08 22:26:45,082 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,082 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,083 - root - DEBUG - Resource 17 offset is 1038917...
+2020-09-08 22:26:45,083 - root - DEBUG - Encoding resource 17...
+2020-09-08 22:26:45,083 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,083 - root - DEBUG - Width: 30, Height: 43, RowLength: 120
+2020-09-08 22:26:45,083 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,083 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,084 - root - DEBUG - Resource 18 offset is 1044101...
+2020-09-08 22:26:45,084 - root - DEBUG - Encoding resource 18...
+2020-09-08 22:26:45,084 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,084 - root - DEBUG - Width: 30, Height: 43, RowLength: 120
+2020-09-08 22:26:45,084 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,085 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,086 - root - DEBUG - Resource 19 offset is 1049285...
+2020-09-08 22:26:45,086 - root - DEBUG - Encoding resource 19...
+2020-09-08 22:26:45,086 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,086 - root - DEBUG - Width: 30, Height: 43, RowLength: 120
+2020-09-08 22:26:45,086 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,086 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,087 - root - DEBUG - Resource 20 offset is 1054469...
+2020-09-08 22:26:45,087 - root - DEBUG - Encoding resource 20...
+2020-09-08 22:26:45,087 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,087 - root - DEBUG - Width: 30, Height: 43, RowLength: 120
+2020-09-08 22:26:45,087 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,087 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,088 - root - DEBUG - Resource 21 offset is 1059653...
+2020-09-08 22:26:45,088 - root - DEBUG - Encoding resource 21...
+2020-09-08 22:26:45,088 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,088 - root - DEBUG - Width: 30, Height: 43, RowLength: 120
+2020-09-08 22:26:45,088 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,088 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,089 - root - DEBUG - Resource 22 offset is 1064837...
+2020-09-08 22:26:45,089 - root - DEBUG - Encoding resource 22...
+2020-09-08 22:26:45,089 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,089 - root - DEBUG - Width: 30, Height: 43, RowLength: 120
+2020-09-08 22:26:45,089 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,089 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,090 - root - DEBUG - Resource 23 offset is 1070021...
+2020-09-08 22:26:45,090 - root - DEBUG - Encoding resource 23...
+2020-09-08 22:26:45,091 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,091 - root - DEBUG - Width: 111, Height: 43, RowLength: 444
+2020-09-08 22:26:45,091 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,091 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,095 - root - DEBUG - Resource 24 offset is 1089137...
+2020-09-08 22:26:45,095 - root - DEBUG - Encoding resource 24...
+2020-09-08 22:26:45,095 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,095 - root - DEBUG - Width: 111, Height: 43, RowLength: 444
+2020-09-08 22:26:45,095 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,095 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,099 - root - DEBUG - Resource 25 offset is 1108253...
+2020-09-08 22:26:45,099 - root - DEBUG - Encoding resource 25...
+2020-09-08 22:26:45,099 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,099 - root - DEBUG - Width: 111, Height: 43, RowLength: 444
+2020-09-08 22:26:45,099 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,099 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,103 - root - DEBUG - Resource 26 offset is 1127369...
+2020-09-08 22:26:45,103 - root - DEBUG - Encoding resource 26...
+2020-09-08 22:26:45,104 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,104 - root - DEBUG - Width: 111, Height: 43, RowLength: 444
+2020-09-08 22:26:45,104 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,104 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,108 - root - DEBUG - Resource 27 offset is 1146485...
+2020-09-08 22:26:45,108 - root - DEBUG - Encoding resource 27...
+2020-09-08 22:26:45,109 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,109 - root - DEBUG - Width: 111, Height: 43, RowLength: 444
+2020-09-08 22:26:45,109 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,109 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,114 - root - DEBUG - Resource 28 offset is 1165601...
+2020-09-08 22:26:45,114 - root - DEBUG - Encoding resource 28...
+2020-09-08 22:26:45,114 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,114 - root - DEBUG - Width: 111, Height: 43, RowLength: 444
+2020-09-08 22:26:45,114 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,114 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,119 - root - DEBUG - Resource 29 offset is 1184717...
+2020-09-08 22:26:45,119 - root - DEBUG - Encoding resource 29...
+2020-09-08 22:26:45,119 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,119 - root - DEBUG - Width: 111, Height: 43, RowLength: 444
+2020-09-08 22:26:45,119 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,119 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,125 - root - DEBUG - Resource 30 offset is 1203833...
+2020-09-08 22:26:45,125 - root - DEBUG - Encoding resource 30...
+2020-09-08 22:26:45,125 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,125 - root - DEBUG - Width: 20, Height: 28, RowLength: 80
+2020-09-08 22:26:45,125 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,125 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,125 - root - DEBUG - Resource 31 offset is 1206097...
+2020-09-08 22:26:45,125 - root - DEBUG - Encoding resource 31...
+2020-09-08 22:26:45,125 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,125 - root - DEBUG - Width: 32, Height: 28, RowLength: 128
+2020-09-08 22:26:45,126 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,126 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,126 - root - DEBUG - Resource 32 offset is 1209705...
+2020-09-08 22:26:45,126 - root - DEBUG - Encoding resource 32...
+2020-09-08 22:26:45,126 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,126 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,126 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,126 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,128 - root - DEBUG - Resource 33 offset is 1218945...
+2020-09-08 22:26:45,129 - root - DEBUG - Encoding resource 33...
+2020-09-08 22:26:45,129 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,129 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,129 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,129 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,131 - root - DEBUG - Resource 34 offset is 1228185...
+2020-09-08 22:26:45,131 - root - DEBUG - Encoding resource 34...
+2020-09-08 22:26:45,131 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,131 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,131 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,131 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,133 - root - DEBUG - Resource 35 offset is 1237425...
+2020-09-08 22:26:45,133 - root - DEBUG - Encoding resource 35...
+2020-09-08 22:26:45,133 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,133 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,133 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,133 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,135 - root - DEBUG - Resource 36 offset is 1246665...
+2020-09-08 22:26:45,135 - root - DEBUG - Encoding resource 36...
+2020-09-08 22:26:45,135 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,135 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,135 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,135 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,137 - root - DEBUG - Resource 37 offset is 1255905...
+2020-09-08 22:26:45,137 - root - DEBUG - Encoding resource 37...
+2020-09-08 22:26:45,137 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,137 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,137 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,137 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,139 - root - DEBUG - Resource 38 offset is 1265145...
+2020-09-08 22:26:45,139 - root - DEBUG - Encoding resource 38...
+2020-09-08 22:26:45,139 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,139 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,139 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,139 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,141 - root - DEBUG - Resource 39 offset is 1274385...
+2020-09-08 22:26:45,141 - root - DEBUG - Encoding resource 39...
+2020-09-08 22:26:45,141 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,141 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,141 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,141 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,143 - root - DEBUG - Resource 40 offset is 1283625...
+2020-09-08 22:26:45,143 - root - DEBUG - Encoding resource 40...
+2020-09-08 22:26:45,143 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,143 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,143 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,143 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,145 - root - DEBUG - Resource 41 offset is 1292865...
+2020-09-08 22:26:45,145 - root - DEBUG - Encoding resource 41...
+2020-09-08 22:26:45,145 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,145 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,146 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,146 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,148 - root - DEBUG - Resource 42 offset is 1302105...
+2020-09-08 22:26:45,148 - root - DEBUG - Encoding resource 42...
+2020-09-08 22:26:45,148 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,148 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,148 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,148 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,150 - root - DEBUG - Resource 43 offset is 1311345...
+2020-09-08 22:26:45,150 - root - DEBUG - Encoding resource 43...
+2020-09-08 22:26:45,150 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,150 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,150 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,150 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,153 - root - DEBUG - Resource 44 offset is 1320585...
+2020-09-08 22:26:45,153 - root - DEBUG - Encoding resource 44...
+2020-09-08 22:26:45,153 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,153 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,153 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,153 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,155 - root - DEBUG - Resource 45 offset is 1329825...
+2020-09-08 22:26:45,155 - root - DEBUG - Encoding resource 45...
+2020-09-08 22:26:45,155 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,155 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,155 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,155 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,157 - root - DEBUG - Resource 46 offset is 1339065...
+2020-09-08 22:26:45,157 - root - DEBUG - Encoding resource 46...
+2020-09-08 22:26:45,157 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,157 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,157 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,157 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,159 - root - DEBUG - Resource 47 offset is 1348305...
+2020-09-08 22:26:45,159 - root - DEBUG - Encoding resource 47...
+2020-09-08 22:26:45,159 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,159 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,159 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,159 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,161 - root - DEBUG - Resource 48 offset is 1357545...
+2020-09-08 22:26:45,161 - root - DEBUG - Encoding resource 48...
+2020-09-08 22:26:45,161 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,161 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,161 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,161 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,163 - root - DEBUG - Resource 49 offset is 1366785...
+2020-09-08 22:26:45,164 - root - DEBUG - Encoding resource 49...
+2020-09-08 22:26:45,164 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,164 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,164 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,164 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,166 - root - DEBUG - Resource 50 offset is 1376025...
+2020-09-08 22:26:45,166 - root - DEBUG - Encoding resource 50...
+2020-09-08 22:26:45,166 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,166 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,166 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,166 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,168 - root - DEBUG - Resource 51 offset is 1385265...
+2020-09-08 22:26:45,168 - root - DEBUG - Encoding resource 51...
+2020-09-08 22:26:45,168 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,168 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,168 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,168 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,170 - root - DEBUG - Resource 52 offset is 1394505...
+2020-09-08 22:26:45,170 - root - DEBUG - Encoding resource 52...
+2020-09-08 22:26:45,170 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,170 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,170 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,170 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,172 - root - DEBUG - Resource 53 offset is 1403745...
+2020-09-08 22:26:45,172 - root - DEBUG - Encoding resource 53...
+2020-09-08 22:26:45,172 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,172 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,172 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,172 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,174 - root - DEBUG - Resource 54 offset is 1412985...
+2020-09-08 22:26:45,174 - root - DEBUG - Encoding resource 54...
+2020-09-08 22:26:45,174 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,174 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,174 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,174 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,176 - root - DEBUG - Resource 55 offset is 1422225...
+2020-09-08 22:26:45,176 - root - DEBUG - Encoding resource 55...
+2020-09-08 22:26:45,176 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,176 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,176 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,176 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,178 - root - DEBUG - Resource 56 offset is 1431465...
+2020-09-08 22:26:45,178 - root - DEBUG - Encoding resource 56...
+2020-09-08 22:26:45,178 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,178 - root - DEBUG - Width: 48, Height: 48, RowLength: 192
+2020-09-08 22:26:45,178 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,178 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,180 - root - DEBUG - Resource 57 offset is 1440705...
+2020-09-08 22:26:45,180 - root - DEBUG - Encoding resource 57...
+2020-09-08 22:26:45,180 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,180 - root - DEBUG - Width: 1, Height: 1, RowLength: 4
+2020-09-08 22:26:45,180 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,180 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,181 - root - DEBUG - Resource 58 offset is 1440733...
+2020-09-08 22:26:45,181 - root - DEBUG - Encoding resource 58...
+2020-09-08 22:26:45,181 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,181 - root - DEBUG - Width: 22, Height: 43, RowLength: 88
+2020-09-08 22:26:45,181 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,181 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,182 - root - DEBUG - Resource 59 offset is 1444541...
+2020-09-08 22:26:45,182 - root - DEBUG - Encoding resource 59...
+2020-09-08 22:26:45,182 - root - DEBUG - Writing image header...
+2020-09-08 22:26:45,182 - root - DEBUG - Width: 22, Height: 43, RowLength: 88
+2020-09-08 22:26:45,182 - root - DEBUG - BPP: 32, Unknown1: 24, Unknown2: 1
+2020-09-08 22:26:45,182 - root - DEBUG - Writing image...
+2020-09-08 22:26:45,183 - root - DEBUG - Writing resources offsets table
+2020-09-08 22:26:45,183 - root - DEBUG - Writing padding...
+2020-09-08 22:26:45,183 - root - DEBUG - Writing resources
